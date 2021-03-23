@@ -46,7 +46,7 @@ public class MainActivity : AppCompatActivity(),View.OnClickListener {
                 val message = button4.text.toString()
                 val intent = Intent(this, MainActivity2::class.java)
                 intent.putExtra("message_key", message)
-                startActivityForResult(intent,0)
+                startActivityForResult(intent,2)
             }
         }
 
