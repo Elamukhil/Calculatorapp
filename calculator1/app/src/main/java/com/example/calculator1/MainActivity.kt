@@ -67,7 +67,6 @@ public class MainActivity : AppCompatActivity(),View.OnClickListener {
         reset.setOnClickListener(){
             val intent = Intent(this, MainActivity::class.java)
             startActivityForResult(intent, 0)
-            finish()
         }
 
     }
